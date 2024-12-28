@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: url('src/380772815_614443104197662_2331053793964946119_n.jpg');
+
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'poppins', sans-serif;
+}
+
+.btn {
+    align-items: flex-start;
+    margin: 10px;
+    padding: 10px;
+    justify-items: left;
+    width: 230px;
+    font-size: larger;
+    border: 50px;
+    border-radius: 20px;
+    background-color: black;
+    font-size: 30px;
+}
+
+.btn1 {
+    align-items: flex-start;
+    margin: 10px;
+    padding: 10px;
+    justify-items: left;
+    width: 210px;
+    font-size: larger;
+    border: 40px;
+    border-radius: 20px;
+    background-color: black;
+    font-size: 30px;
+}
+
+.btn a {
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+    color: #00eeff;
+}
+
+.btn1 a {
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+    color: #00eeff;
+}
+
+h1 {
+    margin: 5px;
+    padding: 5px;
+    color: aliceblue;
+}
+
+h2 {
+    margin: 5px;
+    padding: 5px;
+    color: aliceblue;
+}
+
+a { 
+    color: #4bb7546e;
+    text-decoration: none;
+    transition: 0.5s ease;
+    margin-top: -3%;
+    transform:scale(1.1);
+}
+a:hover {
+    transform: scale3d(1.03);
+    background-color: #4bb754;
+    color: black;
+    box-shadow: 0 0 25px #4bb754;
+}
+
+.Return {
+    margin-left: 10px;
+    color: rgb(20, 20, 168);
+}
